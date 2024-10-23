@@ -33,7 +33,10 @@ p {
     text-indent: 50px;
 }
 
+/*configurando imagem com legenda*/
+
 figure.foto-legenda {
+    position: relative;
     text-align: center;
     
 }
@@ -41,7 +44,17 @@ figure.foto-legenda {
 figure.foto-legenda img{
     width: 50%;
     height: 50%;
-    border: solid rgb(255, 81, 0)
+    border: solid rgb(255, 81, 0);
+    box-shadow: 3px 3px 3px black;
+}
+
+figure.foto-legenda figcaption {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    height: 50%;
+    /*background-color: rgba(0, 0, 0, 0.2);]*/
+    color: white;
 }
 
 
