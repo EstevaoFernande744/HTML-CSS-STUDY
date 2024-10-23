@@ -1,0 +1,31 @@
+body{
+    
+    background-color: rgb(35, 35, 187); /*Deixando o fundo azul*/
+    margin: 0px;  /*Removendo margens*/
+    height: 100vh; /*Preeche a altura total da tela*/
+    
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; /*Arrumando a fonte do Titulo 1*/
+    font-size: 30pt; /*Tamanho da fonte*/
+    color: rgb(255, 81, 0); /*Cor da fonte*/
+    text-shadow: 3px 2px 2px black; /*Configuração das sombras*/
+}
+
+h2 {
+   
+    font-family: Arial, Helvetica, sans-serif; /*Arrumando a fonte do Titulo 1*/
+    color: rgb(255, 81, 0); /*Cor da fonte*/
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 81, 0); /*Cor da fonte*/
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
