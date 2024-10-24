@@ -171,6 +171,18 @@ section#corpo {
     padding-right: 20px;
 }
 
+table#tabela1 {
+    border: 2px solid rgb(224, 81, 24);
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela1 td {
+    border: 1px solid rgb(224, 81, 24);
+    padding: 10px;
+}
+
 aside#lateral {
     display: block;
     width: 400px;
