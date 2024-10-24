@@ -29,7 +29,7 @@ h1.titulo {
 }
 
 header#cabecalho {
-    border-bottom: 1px gray solid;
+    border-bottom: 2px solid rgb(224, 81, 24);
     height: 400px;
     /*background: url("../static/telecab.png") no-repeat 0px 100px; outra forma de colocar a imagem*/
 }
@@ -97,7 +97,7 @@ figure.foto-legenda figcaption {
     color: white;
     width: 100%;
     height: 100%;
-    padding: 200px;
+    padding: 100px;
     box-sizing: border-box;
     transition: opacity 1s;
 }
@@ -163,3 +163,48 @@ nav#menu a:hover {
 }
 
 
+section#corpo {
+    display: block;
+    width: 550px;
+    float: left;
+    border-right: 2px solid  rgb(224, 81, 24);
+    padding-right: 20px;
+}
+
+aside#lateral {
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 2px solid rgb(224, 88, 24);
+}
+
+figure.acessos {
+    width: 30%;
+    height: 30%;
+}
+
+nav#acesoss {
+    display: block;
+}
+
+nav#acesoss ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#acesoss li {
+    display: inline-block;
+}
+
+nav#acesoss a {
+    text-decoration: none;
+    color: rgb(221, 83, 19);  
+}
+ 
+footer#rodape p{
+    text-align: center;
+}
